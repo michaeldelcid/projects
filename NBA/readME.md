@@ -1,7 +1,7 @@
 # CPE 551 - NBA Stats
 
 - This repo will contain the code for my CPE 551 - Engineering Programming Python final project. This python 
-script uses [Selenium](https://selenium-python.readthedocs.io/) to scrap team statistics from the [2019-20 NBA season](https://stats.nba.com/teams/traditional/)
+script uses [Selenium](https://selenium-python.readthedocs.io/) to scrap team statistics from the [2019-20 NBA season](https://stats.nba.com/teams/traditional/) to produce some plots   
 
 ## NBA Stats - Python Final Project
 
