@@ -69,6 +69,7 @@ print(team_db)
 
 #Plot Team FGA vs. FG%
 
+fga_vs_per_plot = plt.figure(1)
 plt.scatter(team_db['FGA'],team_db['FG%'])
 plt.xlabel('Field Goals Attempted (per game)', fontsize=16, fontweight= 'bold')
 plt.ylabel('Field Goal % (per game)', fontsize=16, fontweight='bold')
@@ -76,10 +77,10 @@ plt.xticks(fontsize=14, fontweight='bold')
 plt.yticks(fontsize=14, fontweight='bold')
 plt.xlim([80,95])
 plt.ylim([42, 50])
-plt.show()
 
 #Plot Team FG% vs. Win or NBA standing
 
+per_vs_wins_plot = plt.figure(2)
 plt.scatter(team_db['FG%'],team_db['W'])
 plt.xlabel('Field Goals % (per game)', fontsize=16, fontweight= 'bold')
 plt.ylabel('Number of wins (per season)', fontsize=16, fontweight='bold')
