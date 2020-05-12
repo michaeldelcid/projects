@@ -1,11 +1,34 @@
-import skimage
+import sys
 import matplotlib
-import numpy
+import numpy as np
+import cv2
 
 
+#Create x - direction & y - direction kernels 
 
-## Read in file from directory
+xkernel = [[-1, 0, 1], [-2, 0, 2], [-1, 0, 1]]
+ykernel = [[-1, -2, -1], [0, 0, 0], [1, 2, 1]]
 
-##Store RBG pixels into a matrix or some type of array
+# Read in file from directory
 
-## develop convolution kernels
+img = cv2.imread('liberty.jpg')
+cv2.imread('liberty.jpg')
+
+
+#display original image
+
+
+#cv2.imshow('liberty', img)
+#cv2.waitKey(0)
+#cv2.destroyAllWindows()
+
+#Store pixels into array
+
+#Convert RGB pixels to greyscale
+
+#Convolve in x - direction, store pixels in an array
+
+#Convolve in y - direction, store pixels in an array
+
+#Add both matrices together to produce the final image
+

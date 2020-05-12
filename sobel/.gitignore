@@ -1,0 +1,66 @@
+#Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#get rid of any emacs backup files in case I use that
+*~
+lib/build/
+/EE552/nbproject/private/
+/Errors/nbproject/private/
+/Netbeans/Drawing/nbproject/private/
+/Netbeans/Session10/build/
+/Netbeans/Session10/nbproject/private/
+/Netbeans/Session11/build/
+/Netbeans/Session11/nbproject/private/
+/Netbeans/Session12/build/
+/Netbeans/Session12/nbproject/private/
+/Netbeans/Session13/nbproject/private/
+/EE552/src/Session10/build/
+/EE552/src/Session10/nbproject/private/
+/EE552/src/Session11/build/
+/EE552/src/Session11/nbproject/private/
+/EE552/src/Session12/build/
+/EE552/src/Session12/nbproject/private/
+/EE552/src/Session13/nbproject/private/
+/EE552/nbproject/InClass/nbproject/private/
+/EE552/nbproject/InClass/build/
+/EE552/Session08/nbproject/private/
+/EE552/Session08/build/
+/opengl/JavaOpenGL/nbproject/private/
+/opengl/JavaOpenGL/build/
+/EE552/nbproject/ProcessingStreamline/nbproject/private/
+/InClassProjects2018F/nbproject/private/
+/InClassProjects2018F/build/
+/WebDev/WebDevelopment/nbproject/private/
+/WebDev/WebDevelopment/build/
+/InClassProjets2019S/nbproject/private/
+/InClassProjets2019S/build/
+/WebDev2019S/Session13/nbproject/private/
+/WebDev2019S/Session13/build/
+/CPE552InClass2019F/nbproject/private/
+/CPE552InClass2019F/build/
+/2020S/NewFolder/session10/nbproject/private/
+/2020S/Session11/Session11/nbproject/private/
+/2020S/Session11/Session11/build/
+/2020S/Session12/Session12/nbproject/private/
+/2020S/Session12/Session12/build/
+/2020S/SimpleClasses/nbproject/private/
