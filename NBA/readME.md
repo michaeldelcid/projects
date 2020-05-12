@@ -39,7 +39,8 @@ pip install matplotlib
 ### Run
 
 - Enter the following commads:
-`'python NBAstats.py 'ChromeDriver file path' `
+
+`python NBAstats.py '<ChromeDriver file path>' `
 
 - E.g. to run the script on my machine I type:
 
