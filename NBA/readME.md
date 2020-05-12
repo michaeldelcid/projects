@@ -34,7 +34,7 @@ pip install matplotlib
 	- Field goals attepted
 	- Field goal percentage
 
-- Please refer to [NBAstats.csv](..blob/master/NBA/NBAstats.csv) to view all team data
+- Please refer to [NBAstats.csv](https://github.com/michaeldelcid/projects/blob/master/NBA/NBAstats.csv) to view all team data
 
 ### Run
 
@@ -47,6 +47,8 @@ pip install matplotlib
 `python NBAstats.py 'C:\Eclipse\chromedriver.exe' `
 
 - It is __EXTREMELY__ important that when you run the script, to wait until the following messages show up on your command prompt:
+
+- In line 70 of `NBAstats.py` you have the option of saving the data to a CSV file, uncomment if you want to do this and enter a path
 
 ```
 All data was collected successfully!
@@ -67,5 +69,6 @@ Would you like to continue? Enter y/n:
 	- At the moment it is plotting data for ALL 30 NBA teams
 
 - I want to port all the player data into a csv BUT the method .find_element_by_xpath() is not working correctly for me
+	- `player_data.py` was created for this purpose but it is buggy 
 
 - I want to create a GUI that generate reports for a given team
