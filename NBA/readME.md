@@ -18,7 +18,7 @@ pip install matplotlib
 
 - Install Python 2.7 Interpreter
 
-- Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the _matches_ your version of Chrome
+- Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the __matches__ your version of Chrome
 	- Save the path of `chromedriver.exe` to your favorite text editor
 
 ### NBA Team Data
@@ -45,4 +45,27 @@ pip install matplotlib
 - E.g. to run the script on my machine I type:
 
 `python NBAstats.py 'C:\Eclipse\chromedriver.exe' `
- 
+
+- It is __EXTREMELY__ important that when you run the script, to wait until the following messages show up on your command prompt:
+
+```
+All data was collected successfully!
+
+Would you like to continue? Enter y/n:
+ ```
+
+- By waiting I mean don't even think about interacting with Chrome browser when it opens, it causes weird errors
+	- This has to do with how Selenium interacts with the webdriver
+	- Even minimizing the web browser while data is being collected causes weird errors
+
+### Future 
+
+- I want to be able to collect data from ANY year and plot a teams performance over the years using different stats
+
+- I included `nba_dictionary' to be able to look up a team name using its abbreviation and vice-versa
+	- I want to enter 'New York Knicks' or 'NYK' and get data based on that team and plot it
+	- At the moment it is plotting data for ALL 30 NBA teams
+
+- I want to port all the player data into a csv BUT the method .find_element_by_xpath() is not working correctly for me
+
+- I want to create a GUI that generate reports for a given team
