@@ -7,17 +7,21 @@ script uses [Selenium](https://selenium-python.readthedocs.io/) to scrap team st
 
 ### Requirements
 
-1. Install packages :  
+- Install packages :  
 
-'
+'''
 pip install selenium 
 pip install pandas
 pip install numpy
 pip install matplotlib
-'
-2. Install Python 2.7 Interpreter
+'''
 
-3. Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the *matches* your version of Chrome
+- Install Python 2.7 Interpreter
+
+- Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the *matches* your version of Chrome
+	- Save the path of 'chromedriver.exe' to your favorite text editor
+
+
 
 - The team data I will be looking at will be:
 	- Games played
