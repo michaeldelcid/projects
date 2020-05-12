@@ -9,17 +9,17 @@ script uses [Selenium](https://selenium-python.readthedocs.io/) to scrap team st
 
 - Install packages :  
 
-'''
+```
 pip install selenium 
 pip install pandas
 pip install numpy
 pip install matplotlib
-'''
+```
 
 - Install Python 2.7 Interpreter
 
-- Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the *matches* your version of Chrome
-	- Save the path of 'chromedriver.exe' to your favorite text editor
+- Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the _matches_ your version of Chrome
+	- Save the path of `chromedriver.exe` to your favorite text editor
 
 ### NBA Team Data
 
@@ -39,10 +39,9 @@ pip install matplotlib
 ### Run
 
 - Enter the following commads:
+`'python NBAstats.py 'ChromeDriver file path' `
 
-'python NBAstats.py '<ChromeDriver file path>' '
+- E.g. to run the script on my machine I type:
 
-- E.g to run the script on my machine I type:
-
-'python NBAstats.py 'C:\Eclipse\chromedriver.exe' '
+`python NBAstats.py 'C:\Eclipse\chromedriver.exe' `
  
