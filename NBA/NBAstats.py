@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-
+#Add chromedriver.exe installation path here
 path_to_chromedriver = 'C:\Eclipse\chromedriver.exe'
 driver = webdriver.Chrome(executable_path=path_to_chromedriver)
 
@@ -66,17 +66,14 @@ team_db = pandas.DataFrame({'Team': team_name,
                      ) 
 
 #Remove comment  if you want to save team_db to a csv file, add custom path
-#team_db.to_csv(r'C:\projects\NBA\teamdata.csv', index = False, header=True)
-
+#team_db.to_csv(r'C:\projects\NBA\NBAstats.csv', index = False, header=True)
 
 #Up to this point all leg work done, now do meaningful stuff with data
 
-#Create user interaction 
-
+#Create user interaction
 
 print('All data was collected successfully!\n')
 user_input = input('Would you like to continue? Enter y/n: ')
-
 
 if(user_input == 'y' or user_input == 'yes' ):
 	print('Here are some plots showing basic statistics')
@@ -114,25 +111,3 @@ elif(user_input == 'n' or user_input == 'no'):
 else: #not yes or not so shutdown program
 	print('Not a valid option, shutting down program')
 	exit()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
