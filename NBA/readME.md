@@ -21,9 +21,9 @@ pip install matplotlib
 - Install [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/downloads), download the version the *matches* your version of Chrome
 	- Save the path of 'chromedriver.exe' to your favorite text editor
 
+### NBA Team Data
 
-
-- The team data I will be looking at will be:
+- Some of the team data collected include:
 	- Games played
 	- Wins
 	- Losses
@@ -34,10 +34,15 @@ pip install matplotlib
 	- Field goals attepted
 	- Field goal percentage
 
-- Please refer to NBAstats.csv to view all team data
+- Please refer to [NBAstats.csv](..blob/master/NBA/NBAstats.csv) to view all team data
 
- 	 
+### Run
 
+- Enter the following commads:
+
+'python NBAstats.py '<ChromeDriver file path>' '
+
+- E.g to run the script on my machine I type:
+
+'python NBAstats.py 'C:\Eclipse\chromedriver.exe' '
  
-I will be analyzing NBA team statistics from the 2019-20 season &
-individual player statistics
