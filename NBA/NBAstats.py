@@ -8,9 +8,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import sys
 
-#Add chromedriver.exe installation path here
-path_to_chromedriver = 'C:\Eclipse\chromedriver.exe'
-driver = webdriver.Chrome(executable_path=path_to_chromedriver)
+#Enter chromedriver.exe installation path here
+path_to_chromedriver = sys.argv[1] #Enter system argument as a string 
+driver = webdriver.Chrome(executable_path=sys.argv[1])
+
 
 # Navigate to NBA Team Stats, default season is 2019 - 2020 season
 team_url = 'https://stats.nba.com/teams/traditional/?sort=W_PCT&dir=-1'
@@ -72,11 +73,11 @@ team_db = pandas.DataFrame({'Team': team_name,
 
 #Create user interaction
 
-print('All data was collected successfully!\n')
+print('\nAll data was collected successfully!\n')
 user_input = input('Would you like to continue? Enter y/n: ')
 
 if(user_input == 'y' or user_input == 'yes' ):
-	print('Here are some plots showing basic statistics')
+	print('\nHere are some plots showing basic statistics\n')
 	#Plot Team FGA vs. FG%
 	fga_vs_per_plot = plt.figure(1)
 	plt.scatter(team_db['FGA'],team_db['FG%'])
